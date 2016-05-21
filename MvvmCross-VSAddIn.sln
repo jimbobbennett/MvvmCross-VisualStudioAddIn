@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross-VSAddIn.UWP", "Mv
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MvvmCross-VSAddIn.Store", "MvvmCross-VSAddIn.Store", "{E5B3557C-512C-47B3-8D03-CDA77B1D4337}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MvvmCross-VSAddIn.Store.Shared", "MvvmCross-VSAddIn.Store\MvvmCross-VSAddIn.Store.Shared\MvvmCross-VSAddIn.Store.Shared.shproj", "{1687788A-D324-4AA2-A3EF-14870AE25A9F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross-VSAddIn.Store.Windows", "MvvmCross-VSAddIn.Store\MvvmCross-VSAddIn.Store.Windows\MvvmCross-VSAddIn.Store.Windows.csproj", "{3C255524-84DB-4E49-8F17-3EB9A1F14EAF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross-VSAddIn.Store.WindowsPhone", "MvvmCross-VSAddIn.Store\MvvmCross-VSAddIn.Store.WindowsPhone\MvvmCross-VSAddIn.Store.WindowsPhone.csproj", "{84307812-D2AA-4AB7-9B0C-F1263F368D59}"
@@ -22,11 +20,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross-VSAddIn.Wpf", "MvvmCross-VSAddIn.Wpf\MvvmCross-VSAddIn.Wpf.csproj", "{9DA7FA80-ECE5-4345-AB02-C92E9DD4A184}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		MvvmCross-VSAddIn.Store\MvvmCross-VSAddIn.Store.Shared\MvvmCross-VSAddIn.Store.Shared.projitems*{3c255524-84db-4e49-8f17-3eb9a1f14eaf}*SharedItemsImports = 4
-		MvvmCross-VSAddIn.Store\MvvmCross-VSAddIn.Store.Shared\MvvmCross-VSAddIn.Store.Shared.projitems*{84307812-d2aa-4ab7-9b0c-f1263f368d59}*SharedItemsImports = 4
-		MvvmCross-VSAddIn.Store\MvvmCross-VSAddIn.Store.Shared\MvvmCross-VSAddIn.Store.Shared.projitems*{1687788a-d324-4aa2-a3ef-14870ae25a9f}*SharedItemsImports = 13
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
 		Ad-Hoc|ARM = Ad-Hoc|ARM
@@ -463,7 +456,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{1687788A-D324-4AA2-A3EF-14870AE25A9F} = {E5B3557C-512C-47B3-8D03-CDA77B1D4337}
 		{3C255524-84DB-4E49-8F17-3EB9A1F14EAF} = {E5B3557C-512C-47B3-8D03-CDA77B1D4337}
 		{84307812-D2AA-4AB7-9B0C-F1263F368D59} = {E5B3557C-512C-47B3-8D03-CDA77B1D4337}
 	EndGlobalSection
