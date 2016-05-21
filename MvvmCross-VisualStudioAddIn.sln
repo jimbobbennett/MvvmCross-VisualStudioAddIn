@@ -17,8 +17,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross-VisualStudioAddIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross-VisualStudioAddIn.WindowsStore.WindowsPhone", "MvvmCross-VisualStudioAddIn.WindowsStore\MvvmCross-VisualStudioAddIn.WindowsStore.WindowsPhone\MvvmCross-VisualStudioAddIn.WindowsStore.WindowsPhone.csproj", "{84307812-D2AA-4AB7-9B0C-F1263F368D59}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectTemplates", "ProjectTemplates", "{75509A03-A462-4F1E-960F-8CF75FCCB322}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross-VisualStudioAddIn.iOS", "MvvmCross-VisualStudioAddIn.iOS\MvvmCross-VisualStudioAddIn.iOS.csproj", "{EB7592B4-6689-4D9D-8DC0-F42726B1271D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross-VisualStudioAddIn.Wpf", "MvvmCross-VisualStudioAddIn.Wpf\MvvmCross-VisualStudioAddIn.Wpf.csproj", "{9DA7FA80-ECE5-4345-AB02-C92E9DD4A184}"

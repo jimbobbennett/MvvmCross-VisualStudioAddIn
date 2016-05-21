@@ -1916,8 +1916,8 @@ namespace MvvmCross_VisualStudioAddIn.Droid
 			// aapt resource value: 0x7f06000c
 			public const int MvxBindingTagUnique = 2131099660;
 			
-			// aapt resource value: 0x7f060077
-			public const int action0 = 2131099767;
+			// aapt resource value: 0x7f060074
+			public const int action0 = 2131099764;
 			
 			// aapt resource value: 0x7f06005c
 			public const int action_bar = 2131099740;
@@ -1943,8 +1943,8 @@ namespace MvvmCross_VisualStudioAddIn.Droid
 			// aapt resource value: 0x7f06005d
 			public const int action_context_bar = 2131099741;
 			
-			// aapt resource value: 0x7f06007b
-			public const int action_divider = 2131099771;
+			// aapt resource value: 0x7f060078
+			public const int action_divider = 2131099768;
 			
 			// aapt resource value: 0x7f060003
 			public const int action_menu_divider = 2131099651;
@@ -1979,8 +1979,8 @@ namespace MvvmCross_VisualStudioAddIn.Droid
 			// aapt resource value: 0x7f060046
 			public const int buttonPanel = 2131099718;
 			
-			// aapt resource value: 0x7f060078
-			public const int cancel_action = 2131099768;
+			// aapt resource value: 0x7f060075
+			public const int cancel_action = 2131099765;
 			
 			// aapt resource value: 0x7f06002d
 			public const int center = 2131099693;
@@ -1994,8 +1994,8 @@ namespace MvvmCross_VisualStudioAddIn.Droid
 			// aapt resource value: 0x7f060054
 			public const int checkbox = 2131099732;
 			
-			// aapt resource value: 0x7f06007e
-			public const int chronometer = 2131099774;
+			// aapt resource value: 0x7f06007b
+			public const int chronometer = 2131099771;
 			
 			// aapt resource value: 0x7f060035
 			public const int clip_horizontal = 2131099701;
@@ -2008,9 +2008,6 @@ namespace MvvmCross_VisualStudioAddIn.Droid
 			
 			// aapt resource value: 0x7f06004c
 			public const int contentPanel = 2131099724;
-			
-			// aapt resource value: 0x7f060076
-			public const int content_frame = 2131099766;
 			
 			// aapt resource value: 0x7f060052
 			public const int custom = 2131099730;
@@ -2048,8 +2045,8 @@ namespace MvvmCross_VisualStudioAddIn.Droid
 			// aapt resource value: 0x7f06001e
 			public const int end = 2131099678;
 			
-			// aapt resource value: 0x7f060083
-			public const int end_padder = 2131099779;
+			// aapt resource value: 0x7f060080
+			public const int end_padder = 2131099776;
 			
 			// aapt resource value: 0x7f060025
 			public const int enterAlways = 2131099685;
@@ -2093,8 +2090,8 @@ namespace MvvmCross_VisualStudioAddIn.Droid
 			// aapt resource value: 0x7f060041
 			public const int image = 2131099713;
 			
-			// aapt resource value: 0x7f060082
-			public const int info = 2131099778;
+			// aapt resource value: 0x7f06007f
+			public const int info = 2131099775;
 			
 			// aapt resource value: 0x7f060000
 			public const int item_touch_helper_previous_elevation = 2131099648;
@@ -2102,11 +2099,11 @@ namespace MvvmCross_VisualStudioAddIn.Droid
 			// aapt resource value: 0x7f060031
 			public const int left = 2131099697;
 			
-			// aapt resource value: 0x7f06007c
-			public const int line1 = 2131099772;
+			// aapt resource value: 0x7f060079
+			public const int line1 = 2131099769;
 			
-			// aapt resource value: 0x7f060080
-			public const int line3 = 2131099776;
+			// aapt resource value: 0x7f06007d
+			public const int line3 = 2131099773;
 			
 			// aapt resource value: 0x7f06000d
 			public const int listMode = 2131099661;
@@ -2114,8 +2111,8 @@ namespace MvvmCross_VisualStudioAddIn.Droid
 			// aapt resource value: 0x7f060043
 			public const int list_item = 2131099715;
 			
-			// aapt resource value: 0x7f06007a
-			public const int media_actions = 2131099770;
+			// aapt resource value: 0x7f060077
+			public const int media_actions = 2131099767;
 			
 			// aapt resource value: 0x7f06001f
 			public const int middle = 2131099679;
@@ -2249,8 +2246,8 @@ namespace MvvmCross_VisualStudioAddIn.Droid
 			// aapt resource value: 0x7f060033
 			public const int start = 2131099699;
 			
-			// aapt resource value: 0x7f060079
-			public const int status_bar_latest_event_content = 2131099769;
+			// aapt resource value: 0x7f060076
+			public const int status_bar_latest_event_content = 2131099766;
 			
 			// aapt resource value: 0x7f060067
 			public const int submit_area = 2131099751;
@@ -2258,17 +2255,17 @@ namespace MvvmCross_VisualStudioAddIn.Droid
 			// aapt resource value: 0x7f06000f
 			public const int tabMode = 2131099663;
 			
-			// aapt resource value: 0x7f060081
-			public const int text = 2131099777;
+			// aapt resource value: 0x7f06007e
+			public const int text = 2131099774;
 			
-			// aapt resource value: 0x7f06007f
-			public const int text2 = 2131099775;
+			// aapt resource value: 0x7f06007c
+			public const int text2 = 2131099772;
 			
 			// aapt resource value: 0x7f06004f
 			public const int textSpacerNoButtons = 2131099727;
 			
-			// aapt resource value: 0x7f06007d
-			public const int time = 2131099773;
+			// aapt resource value: 0x7f06007a
+			public const int time = 2131099770;
 			
 			// aapt resource value: 0x7f060045
 			public const int title = 2131099717;
@@ -2276,11 +2273,8 @@ namespace MvvmCross_VisualStudioAddIn.Droid
 			// aapt resource value: 0x7f06004a
 			public const int title_template = 2131099722;
 			
-			// aapt resource value: 0x7f060075
-			public const int toolbar = 2131099765;
-			
-			// aapt resource value: 0x7f060074
-			public const int toolbar_layout = 2131099764;
+			// aapt resource value: 0x7f060081
+			public const int toolbar = 2131099777;
 			
 			// aapt resource value: 0x7f060034
 			public const int top = 2131099700;
@@ -2504,7 +2498,7 @@ namespace MvvmCross_VisualStudioAddIn.Droid
 			public const int select_dialog_singlechoice_material = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int splashscreen = 2130903089;
+			public const int SplashScreen = 2130903089;
 			
 			// aapt resource value: 0x7f030032
 			public const int support_simple_spinner_dropdown_item = 2130903090;
