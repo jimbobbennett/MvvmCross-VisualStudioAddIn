@@ -17,6 +17,9 @@
       <Folder Name="Assets" TargetFolderName="Assets">
         <ProjectItem ReplaceParameters="true" TargetFileName="AboutAssets.txt">AboutAssets.txt</ProjectItem>
       </Folder>
+      <Folder Name="Bootstrap" TargetFolderName="Bootstrap">
+        <ProjectItem ReplaceParameters="true" TargetFileName="JsonPluginBootstrap.cs">JsonPluginBootstrap.cs</ProjectItem>
+      </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="DebugTrace.cs">DebugTrace.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="LinkerPleaseInclude.cs">LinkerPleaseInclude.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
@@ -67,6 +70,7 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="Setup.cs">Setup.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="SplashScreen.cs">SplashScreen.cs</ProjectItem>
       <Folder Name="Views" TargetFolderName="Views">
+        <ProjectItem ReplaceParameters="true" TargetFileName="BaseView.cs">BaseView.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="FirstView.cs">FirstView.cs</ProjectItem>
       </Folder>
     </Project>
