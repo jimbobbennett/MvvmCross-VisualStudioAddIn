@@ -1,20 +1,20 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>MVVMCros Core PCL</Name>
+    <Name>MVVMCross Core PCL</Name>
     <Description>An example Core PCL project for an MVVMCross application</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>MVVMCros Core PCL</DefaultName>
+    <DefaultName>MVVMCross Core PCL</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Icon>__TemplateIcon.png</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="MvvmCross-VSAddIn.Core.csproj" File="MvvmCross-VSAddIn.Core.csproj" ReplaceParameters="true">
+    <Project TargetFileName="$safeprojectname$.Core.csproj" File="MvvmCross-VSAddIn.Core.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="App.cs">App.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
       <Folder Name="Properties" TargetFolderName="Properties">

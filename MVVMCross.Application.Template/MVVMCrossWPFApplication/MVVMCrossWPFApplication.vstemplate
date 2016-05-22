@@ -14,7 +14,7 @@
     <Icon>__TemplateIcon.png</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="MvvmCross-VSAddIn.Wpf.csproj" File="MvvmCross-VSAddIn.Wpf.csproj" ReplaceParameters="true">
+    <Project TargetFileName="$safeprojectname$.Wpf.csproj" File="MvvmCross-VSAddIn.Wpf.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml">App.xaml</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml.cs">App.xaml.cs</ProjectItem>

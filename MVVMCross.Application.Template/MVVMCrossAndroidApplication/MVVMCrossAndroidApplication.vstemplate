@@ -3,8 +3,7 @@
     <Name>MVVMCross Android Application</Name>
     <Description>An example Android application using MVVMCross</Description>
     <ProjectType>CSharp</ProjectType>
-    <ProjectSubType>
-    </ProjectSubType>
+    <ProjectSubType>Android</ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>MVVMCross Android Application</DefaultName>
@@ -14,7 +13,7 @@
     <Icon>__TemplateIcon.png</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="MvvmCross-VSAddIn.Droid.csproj" File="MvvmCross-VSAddIn.Droid.csproj" ReplaceParameters="true">
+    <Project TargetFileName="$safeprojectname$.Droid.csproj" File="MvvmCross-VSAddIn.Droid.csproj" ReplaceParameters="true">
       <Folder Name="Assets" TargetFolderName="Assets">
         <ProjectItem ReplaceParameters="true" TargetFileName="AboutAssets.txt">AboutAssets.txt</ProjectItem>
       </Folder>

@@ -1,7 +1,7 @@
 ﻿using System;
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.iOS.Views;
-using MvvmCross_VSAddIn.Core.ViewModels;
+using $ext_safeprojectname$.Core.ViewModels;
 
 namespace $safeprojectname$.Views
 {

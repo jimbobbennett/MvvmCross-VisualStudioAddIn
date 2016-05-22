@@ -1,0 +1,34 @@
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>MVVMCross Application</Name>
+    <Description>An example MVVMCross application</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>MVVMCross</ProjectSubType>
+    <Icon>__TemplateIcon.png</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+		  <ProjectTemplateLink ProjectName="$safeprojectname$.Droid" CopyParameters="true">
+            MVVMCrossAndroidApplication\MVVMCrossAndroidApplication.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Core" CopyParameters="true">
+            MVVMCrossCorePCL\MVVMCrossCorePCL.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.iOS" CopyParameters="true">
+            MVVMCrossiOSApplication\MVVMCrossiOSApplication.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.UWP" CopyParameters="true">
+            MVVMCrossUWPApplication\MVVMCrossUWPApplication.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Store" CopyParameters="true">
+            MVVMCrossWindowsStoreApplication\MVVMCrossWindowsStoreApplication.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Store.Phone" CopyParameters="true">
+            MVVMCrossWindowsStorePhoneApplication\MVVMCrossWindowsStorePhoneApplication.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.WPF" CopyParameters="true">
+            MVVMCrossWPFApplication\MVVMCrossWPFApplication.vstemplate
+        </ProjectTemplateLink>
+    </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>

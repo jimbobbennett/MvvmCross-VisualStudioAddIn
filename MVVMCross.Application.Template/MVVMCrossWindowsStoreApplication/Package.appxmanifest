@@ -2,12 +2,12 @@
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
 
   <Identity Name="1bf8a6f6-880e-492c-ab61-a8bd01bd53e2"
-            Publisher="CN=jimbo"
+            Publisher="CN=My Company"
             Version="1.0.0.0" />
 
   <Properties>
-    <DisplayName>MvvmCross-VSAddIn.Store.Windows</DisplayName>
-    <PublisherDisplayName>jimbo</PublisherDisplayName>
+    <DisplayName>$safeprojectname$</DisplayName>
+    <PublisherDisplayName>My Company</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -23,12 +23,12 @@
   <Applications>
     <Application Id="App"
         Executable="$targetnametoken$.exe"
-        EntryPoint="MvvmCross_VSAddIn.Store.Windows.App">
+        EntryPoint="$safeprojectname$.App">
         <m2:VisualElements
-            DisplayName="MvvmCross-VSAddIn.Store.Windows"
+            DisplayName="$safeprojectname$"
             Square150x150Logo="Assets\Logo.png"
             Square30x30Logo="Assets\SmallLogo.png"
-            Description="MvvmCross-VSAddIn.Store.Windows"
+            Description="$safeprojectname$"
             ForegroundText="light"
             BackgroundColor="#464646">
             <m2:SplashScreen Image="Assets\SplashScreen.png" />

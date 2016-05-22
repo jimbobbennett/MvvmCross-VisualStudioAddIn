@@ -19,6 +19,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross-VSAddIn.iOS", "Mv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross-VSAddIn.Wpf", "MvvmCross-VSAddIn.Wpf\MvvmCross-VSAddIn.Wpf.csproj", "{9DA7FA80-ECE5-4345-AB02-C92E9DD4A184}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{B419E688-5FE4-4AB3-A298-D539B2D2DE09}"
+	ProjectSection(SolutionItems) = preProject
+		MVVMCross.Application.Template\__TemplateIcon.png = MVVMCross.Application.Template\__TemplateIcon.png
+		MVVMCross.Application.Template\Root.vstemplate = MVVMCross.Application.Template\Root.vstemplate
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU

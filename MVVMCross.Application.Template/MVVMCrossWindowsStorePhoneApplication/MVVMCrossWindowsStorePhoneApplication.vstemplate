@@ -1,33 +1,34 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>MVVMCross Windows Store Application</Name>
-    <Description>An example Windows Store Windows 8.1 application using MVVMCross</Description>
+    <Name>MVVMCross Windows Store Phone Application</Name>
+    <Description>An example Windows Store Windows Phone 8.1 application using MVVMCross</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>MVVMCross Windows Store Application</DefaultName>
+    <DefaultName>MVVMCross Windows Store Phone Application</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Icon>__TemplateIcon.png</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="MvvmCross-VSAddIn.Store.Windows.csproj" File="MvvmCross-VSAddIn.Store.Windows.csproj" ReplaceParameters="true">
+    <Project TargetFileName="$safeprojectname$.Store.WindowsPhone.csproj" File="MvvmCross-VSAddIn.Store.WindowsPhone.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml">App.xaml</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml.cs">App.xaml.cs</ProjectItem>
       <Folder Name="Assets" TargetFolderName="Assets">
-        <ProjectItem ReplaceParameters="false" TargetFileName="Logo.scale-100.png">Logo.scale-100.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="SmallLogo.scale-100.png">SmallLogo.scale-100.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="SplashScreen.scale-100.png">SplashScreen.scale-100.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="StoreLogo.scale-100.png">StoreLogo.scale-100.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Logo.scale-240.png">Logo.scale-240.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="SmallLogo.scale-240.png">SmallLogo.scale-240.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="SplashScreen.scale-240.png">SplashScreen.scale-240.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Square71x71Logo.scale-240.png">Square71x71Logo.scale-240.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="StoreLogo.scale-240.png">StoreLogo.scale-240.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="WideLogo.scale-240.png">WideLogo.scale-240.png</ProjectItem>
       </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="DebugTrace.cs">DebugTrace.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml">MainPage.xaml</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml.cs">MainPage.xaml.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="MvvmCross-VSAddIn.Store.Windows_TemporaryKey.pfx">MvvmCross-VSAddIn.Store.Windows_TemporaryKey.pfx</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="Package.appxmanifest">Package.appxmanifest</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Package.appxmanifest">Package.appxmanifest</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
