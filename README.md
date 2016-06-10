@@ -1,3 +1,3 @@
 # MvvmCross-VisualStudioAddIn
 
-Templates to create MVVMCross projects in Visual Studio
+Templates to create MvvmCross projects in Visual Studio
