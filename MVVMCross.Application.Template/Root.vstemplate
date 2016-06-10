@@ -1,9 +1,9 @@
 <VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
   <TemplateData>
-    <Name>MVVMCross Application</Name>
-    <Description>An example MVVMCross application</Description>
+    <Name>MvvmCross Application</Name>
+    <Description>An example cross-platform MvvmCross application</Description>
     <ProjectType>CSharp</ProjectType>
-    <ProjectSubType>MVVMCross</ProjectSubType>
+    <ProjectSubType>MvvmCross</ProjectSubType>
     <Icon>__TemplateIcon.png</Icon>
   </TemplateData>
   <TemplateContent>
