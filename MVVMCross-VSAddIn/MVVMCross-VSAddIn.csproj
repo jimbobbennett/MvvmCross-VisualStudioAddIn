@@ -41,6 +41,57 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="ProjectTemplates\CSharp\MvvmCross\Root.zip">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Bootstrap\JsonPluginBootstrap.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\DebugTrace.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\LinkerPleaseInclude.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Properties\AssemblyInfo.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Resources\Resource.Designer.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Setup.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\SplashScreen.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Views\BaseView.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Views\FirstView.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossCorePCL\App.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossCorePCL\Properties\AssemblyInfo.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossCorePCL\ViewModels\FirstViewModel.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\AppDelegate.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\DebugTrace.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\LinkerPleaseInclude.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Main.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Properties\AssemblyInfo.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Setup.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Views\FirstView.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Views\FirstView.designer.cs">
+      <DependentUpon>FirstView.cs</DependentUpon>
+    </None>
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossUWPApplication\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </None>
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossUWPApplication\MvvmCross-VSAddIn.UWP_TemporaryKey.pfx" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossUWPApplication\Properties\AssemblyInfo.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossUWPApplication\Setup.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossUWPApplication\Views\FirstView.xaml.cs">
+      <DependentUpon>FirstView.xaml</DependentUpon>
+    </None>
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossWPFApplication\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </None>
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossWPFApplication\App.Xaml.Mvx.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossWPFApplication\DebugTrace.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossWPFApplication\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </None>
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossWPFApplication\Properties\AssemblyInfo.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossWPFApplication\Properties\Resources.Designer.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossWPFApplication\Properties\Settings.Designer.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossWPFApplication\Setup.cs" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossWPFApplication\Views\FirstView.xaml.cs">
+      <DependentUpon>FirstView.xaml</DependentUpon>
+    </None>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -48,10 +99,23 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\CSharp\MvvmCross\Root.zip">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Resources\layout\FirstView.axml" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Resources\layout\SplashScreen.axml" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Resources\layout\toolbar.axml" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossCorePCL\packages.config" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\packages.config" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Resources\LaunchScreen.xib" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Views\FirstView.storyboard" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossUWPApplication\Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossUWPApplication\project.json" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossWPFApplication\App.config" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossWPFApplication\packages.config" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossWPFApplication\Properties\Settings.settings" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
@@ -62,9 +126,102 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Assets\AboutAssets.txt" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\MvvmCross-VSAddIn.Droid.csproj">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\MVVMCrossAndroidApplication.vstemplate" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Properties\AndroidManifest.xml" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Resources\AboutResources.txt" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Resources\drawable-hdpi\Icon.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Resources\drawable-mdpi\Icon.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Resources\drawable-xhdpi\Icon.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Resources\drawable-xxhdpi\Icon.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Resources\drawable-xxxhdpi\Icon.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Resources\drawable\Icon.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Resources\drawable\splash.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Resources\values-v21\styles.xml" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Resources\values\arrays.xml" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Resources\values\colors.xml" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Resources\values\dimens.xml" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Resources\values\integers.xml" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Resources\values\SplashStyle.xml" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Resources\values\strings.xml" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\Resources\values\styles.xml" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossAndroidApplication\__TemplateIcon.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossCorePCL\MvvmCross-VSAddIn.Core.csproj" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossCorePCL\MVVMCrossCorePCL.vstemplate" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossCorePCL\__TemplateIcon.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Entitlements.plist" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Info.plist" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\MvvmCross-VSAddIn.iOS.csproj" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\MVVMCrossiOSApplication.vstemplate" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\__TemplateIcon.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossUWPApplication\Assets\LockScreenLogo.scale-200.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossUWPApplication\Assets\SplashScreen.scale-200.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossUWPApplication\Assets\Square150x150Logo.scale-200.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossUWPApplication\Assets\Square44x44Logo.scale-200.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossUWPApplication\Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossUWPApplication\Assets\StoreLogo.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossUWPApplication\Assets\Wide310x150Logo.scale-200.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossUWPApplication\MvvmCross-VSAddIn.UWP.csproj" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossUWPApplication\MVVMCrossUWPApplication.vstemplate" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossUWPApplication\Properties\Default.rd.xml" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossUWPApplication\__TemplateIcon.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossWPFApplication\MvvmCross-VSAddIn.Wpf.csproj" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossWPFApplication\MVVMCrossWPFApplication.vstemplate" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossWPFApplication\__TemplateIcon.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-App-20x20%401x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-App-20x20%402x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-App-20x20%403x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%401x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%402x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%403x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%401x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%402x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%403x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-App-57x57%401x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-App-57x57%402x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-App-60x60%401x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-App-60x60%402x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-App-60x60%403x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-App-72x72%401x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-App-72x72%402x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-App-76x76%401x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-App-76x76%402x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-App-76x76%403x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-App-83.5x83.5%402x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-Small-50x50%401x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossiOSApplication\Assets.xcassets\AppIcon.appiconset\Icon-Small-50x50%402x.png" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossWPFApplication\MvvmCross.ico" />
+    <Content Include="ProjectTemplates\CSharp\MvvmCross\Root\Root.vstemplate" />
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\__TemplateIcon.png" />
     <Content Include="stylesheet.css" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossUWPApplication\App.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossUWPApplication\Views\FirstView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossWPFApplication\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossWPFApplication\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossWPFApplication\Views\FirstView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ProjectTemplates\CSharp\MvvmCross\Root\MVVMCrossWPFApplication\Properties\Resources.resx" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup>
