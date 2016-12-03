@@ -244,3 +244,7 @@ ModelManifest.xml
 .fake/
 /._.DS_Store
 /.DS_Store
+
+MVVMCross-VSAddIn/Thumbs.db
+
+MVVMCross-VSAddIn/ProjectTemplates/CSharp/MvvmCross/Root/MVVMCrossAndroidApplication/Resources/drawable-hdpi/Thumbs.db
