@@ -134,7 +134,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="MvvmCross.ico" />
+    <Resource Include="MvvmCross.ico" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\$ext_safeprojectname$.Core\$ext_safeprojectname$.Core.csproj">
