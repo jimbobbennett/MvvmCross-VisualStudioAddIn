@@ -6,7 +6,7 @@ using $ext_safeprojectname$.Core.ViewModels;
 namespace $safeprojectname$.Views
 {
     [MvxFromStoryboard]
-    public partial class FirstView : MvxViewController<FirstViewModel>
+    public partial class FirstView : MvxViewController
     {
         public FirstView(IntPtr handle) : base(handle)
         {

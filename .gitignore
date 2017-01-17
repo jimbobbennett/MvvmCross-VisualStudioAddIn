@@ -248,3 +248,5 @@ ModelManifest.xml
 MVVMCross-VSAddIn/Thumbs.db
 
 MVVMCross-VSAddIn/ProjectTemplates/CSharp/MvvmCross/Root/MVVMCrossAndroidApplication/Resources/drawable-hdpi/Thumbs.db
+
+*.db
