@@ -12,6 +12,7 @@
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Icon>__TemplateIcon.png</Icon>
+    <Hidden>true</Hidden>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="$safeprojectname$.Wpf.csproj" File="MvvmCross-VSAddIn.Wpf.csproj" ReplaceParameters="true">

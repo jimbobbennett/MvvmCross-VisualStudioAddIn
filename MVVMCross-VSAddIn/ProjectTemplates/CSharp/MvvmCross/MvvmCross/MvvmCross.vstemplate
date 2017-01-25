@@ -12,16 +12,16 @@
             MVVMCrossAndroidApplication\MVVMCrossAndroidApplication.vstemplate
         </ProjectTemplateLink>
         <ProjectTemplateLink ProjectName="$safeprojectname$.Core" CopyParameters="true">
-            MVVMCrossCorePCL\MVVMCrossCorePCL.vstemplate
+          MVVMCrossCorePCL\MVVMCrossCorePCL.vstemplate
         </ProjectTemplateLink>
         <ProjectTemplateLink ProjectName="$safeprojectname$.iOS" CopyParameters="true">
-            MVVMCrossiOSApplication\MVVMCrossiOSApplication.vstemplate
+          MVVMCrossiOSApplication\MVVMCrossiOSApplication.vstemplate
         </ProjectTemplateLink>
         <ProjectTemplateLink ProjectName="$safeprojectname$.UWP" CopyParameters="true">
-            MVVMCrossUWPApplication\MVVMCrossUWPApplication.vstemplate
+          MVVMCrossUWPApplication\MVVMCrossUWPApplication.vstemplate
         </ProjectTemplateLink>
         <ProjectTemplateLink ProjectName="$safeprojectname$.WPF" CopyParameters="true">
-            MVVMCrossWPFApplication\MVVMCrossWPFApplication.vstemplate
+          MVVMCrossWPFApplication\MVVMCrossWPFApplication.vstemplate
         </ProjectTemplateLink>
     </ProjectCollection>
   </TemplateContent>
