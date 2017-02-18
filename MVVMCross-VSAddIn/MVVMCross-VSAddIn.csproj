@@ -3,7 +3,7 @@
   <PropertyGroup>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
-    <FileUpgradeFlags>40</FileUpgradeFlags>
+    <FileUpgradeFlags>0</FileUpgradeFlags>
     <UpgradeBackupLocation>Y:\GitHub\MvvmCross-VisualStudioAddIn\Backup1\</UpgradeBackupLocation>
     <OldToolsVersion>15.0</OldToolsVersion>
     <IsWebBootstrapper>false</IsWebBootstrapper>
