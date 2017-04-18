@@ -5,9 +5,9 @@ using MvvmCross.Droid.Views;
 namespace $safeprojectname$
 {
     [Activity(
-        Label = "$safeprojectname$"
-        , MainLauncher = true
-        , Icon = "@drawable/icon"
+        Label = "$ext_safeprojectname$"
+		, MainLauncher = true
+        , Icon = "@mipmap/ic_launcher"
         , Theme = "@style/Theme.Splash"
         , NoHistory = true
         , ScreenOrientation = ScreenOrientation.Portrait)]

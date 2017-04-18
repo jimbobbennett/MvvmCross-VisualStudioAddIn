@@ -244,22 +244,19 @@
     <Content Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossAndroidApplication\Resources\AboutResources.txt">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossAndroidApplication\Resources\drawable-hdpi\Icon.png">
+    <Content Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossAndroidApplication\Resources\mipmap-hdpi\ic_launcher.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossAndroidApplication\Resources\drawable-mdpi\Icon.png">
+    <Content Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossAndroidApplication\Resources\mipmap-mdpi\ic_launcher.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossAndroidApplication\Resources\drawable-xhdpi\Icon.png">
+    <Content Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossAndroidApplication\Resources\mipmap-xhdpi\ic_launcher.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossAndroidApplication\Resources\drawable-xxhdpi\Icon.png">
+    <Content Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossAndroidApplication\Resources\mipmap-xxhdpi\ic_launcher.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossAndroidApplication\Resources\drawable-xxxhdpi\Icon.png">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossAndroidApplication\Resources\drawable\Icon.png">
+    <Content Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossAndroidApplication\Resources\mipmap-xxxhdpi\ic_launcher.png">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossAndroidApplication\Resources\drawable\splash.png">
@@ -478,6 +475,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossAndroidApplication\Resources\drawable_hdpi\" />
+    <Folder Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossAndroidApplication\Resources\drawable_mdpi\" />
+    <Folder Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossAndroidApplication\Resources\drawable_xhdpi\" />
+    <Folder Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossAndroidApplication\Resources\drawable_xxhdpi\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
