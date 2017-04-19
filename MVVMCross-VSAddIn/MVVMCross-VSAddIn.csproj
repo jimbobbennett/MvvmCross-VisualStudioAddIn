@@ -282,6 +282,7 @@
     </Content>
     <Content Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossAndroidApplication\Resources\values\strings.xml">
       <IncludeInVSIX>true</IncludeInVSIX>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossAndroidApplication\Resources\values\styles.xml">
       <IncludeInVSIX>true</IncludeInVSIX>
