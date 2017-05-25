@@ -1,6 +1,6 @@
 ﻿using Windows.UI.Xaml.Controls;
 using MvvmCross.Core.ViewModels;
-using MvvmCross.WindowsUWP.Platform;
+using MvvmCross.Uwp.Platform;
 
 namespace $safeprojectname$
 {
