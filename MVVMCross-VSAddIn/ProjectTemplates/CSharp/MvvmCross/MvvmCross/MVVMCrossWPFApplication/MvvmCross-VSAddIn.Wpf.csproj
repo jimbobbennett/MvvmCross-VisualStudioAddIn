@@ -38,28 +38,28 @@
     <ApplicationIcon>MvvmCross.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MvvmCross.Binding, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\MvvmCross.Binding.5.0.0\lib\net45\MvvmCross.Binding.dll</HintPath>
+    <Reference Include="MvvmCross.Binding">
+      <HintPath>..\..\packages\MvvmCross.Binding.5.0.3\lib\net45\MvvmCross.Binding.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="MvvmCross.Core, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\MvvmCross.Core.5.0.0\lib\net45\MvvmCross.Core.dll</HintPath>
+    <Reference Include="MvvmCross.Core">
+      <HintPath>..\..\packages\MvvmCross.Core.5.0.3\lib\net45\MvvmCross.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="MvvmCross.Localization, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\MvvmCross.Binding.5.0.0\lib\net45\MvvmCross.Localization.dll</HintPath>
+    <Reference Include="MvvmCross.Localization">
+      <HintPath>..\..\packages\MvvmCross.Binding.5.0.3\lib\net45\MvvmCross.Localization.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="MvvmCross.Platform, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\MvvmCross.Platform.5.0.0\lib\net45\MvvmCross.Platform.dll</HintPath>
+    <Reference Include="MvvmCross.Platform">
+      <HintPath>..\..\packages\MvvmCross.Platform.5.0.3\lib\net45\MvvmCross.Platform.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="MvvmCross.Platform.Wpf, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\MvvmCross.Platform.5.0.0\lib\net45\MvvmCross.Platform.Wpf.dll</HintPath>
+    <Reference Include="MvvmCross.Platform.Wpf">
+      <HintPath>..\..\packages\MvvmCross.Platform.5.0.3\lib\net45\MvvmCross.Platform.Wpf.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="MvvmCross.Wpf, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\MvvmCross.Core.5.0.0\lib\net45\MvvmCross.Wpf.dll</HintPath>
+    <Reference Include="MvvmCross.Wpf">
+      <HintPath>..\..\packages\MvvmCross.Core.5.0.3\lib\net45\MvvmCross.Wpf.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />

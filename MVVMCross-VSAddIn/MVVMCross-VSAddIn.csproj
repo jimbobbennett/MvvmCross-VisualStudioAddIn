@@ -3,8 +3,10 @@
   <PropertyGroup>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
-    <FileUpgradeFlags>0</FileUpgradeFlags>
-    <UpgradeBackupLocation>Y:\GitHub\MvvmCross-VisualStudioAddIn\Backup1\</UpgradeBackupLocation>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
     <OldToolsVersion>15.0</OldToolsVersion>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
@@ -234,6 +236,7 @@
     </Content>
     <Content Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossAndroidApplication\MVVMCrossAndroidApplication.vstemplate">
       <IncludeInVSIX>true</IncludeInVSIX>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossAndroidApplication\Properties\AndroidManifest.xml">
       <IncludeInVSIX>true</IncludeInVSIX>
@@ -334,6 +337,7 @@
     </Content>
     <Content Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossUWPApplication\MvvmCross-VSAddIn.UWP.csproj">
       <IncludeInVSIX>true</IncludeInVSIX>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="ProjectTemplates\CSharp\MvvmCross\MvvmCross\MVVMCrossUWPApplication\MVVMCrossUWPApplication.vstemplate">
       <IncludeInVSIX>true</IncludeInVSIX>
