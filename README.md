@@ -1,3 +1,8 @@
+### THIS PROJECT IS DEPRECATED
+This project has been deprecated, and replaced by https://github.com/jimbobbennett/MvvmCross-Templates/.
+
+
+
 # MvvmCross-VisualStudioAddIn
 
 Templates to create MvvmCross projects in Visual Studio
